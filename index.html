@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    
+<center>
+<div class="border">
+    
+    <img src="/whatsapp-icon.png" alt="" height="100px" width="100px">
+    <p>Envie mensagem pelo Zap <br> sem salvar o número.</p>
+    <p id="title">Digite o número <br> com o DDD:</p>
+<input type="text" name="pnumber" id="pnumber"><br>
+<button type="submit" onClick="zapear()">vê link do zap</button>
+
+<div id="link">  
+
+</div>
+
+</center>
+
+</div>
+
+    <script>
+        function zapear(){
+        var url = 'https://web.whatsapp.com/send?phone=55';
+        //&text=Ol%C3%A1!%20Gostaria%20de%20falar%20sobre%20';
+
+        var pnumber2 = window.document.getElementById('pnumber');
+        var urlEnviar = window.document.getElementById('link')
+
+        var numConvertido = Number(pnumber2.value)
+        var urlZap = url + numConvertido;
+        link.innerHTML = `<a href="${urlZap}" target="_blank">${urlZap}</a>`;
+        }
+    </script>
+</body>
+</html>
