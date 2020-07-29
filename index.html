@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Whatsapp</title>
+    <title>Zapeador - Whatsapp</title>
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
@@ -16,15 +16,12 @@
     <input type="text" name="pnumber" id="pnumber"><br>
     <button type="submit" onClick="zapear()">ABRIR WHATSAPP</button>
     
-    <div id="link">  
-        
-    </div>
-    <p>Envie mensagem pelo Zap <br> sem salvar o número.</p>
     
-</center>
-
 </div>
-
+<div class="hint">
+    <p>Envie mensagem pelo Zap <br> sem salvar o número.</p>
+</div>
+</center>
     <script>
         function zapear(){
         var url = 'https://wa.me/send?phone=55';
@@ -33,11 +30,11 @@
         var pnumber2 = window.document.getElementById('pnumber');
         var urlEnviar = window.document.getElementById('link')
 
-        var numConvertido = Number(pnumber2.value)
-        var urlZap = url + numConvertido;
-        link.innerHTML = `<a href="${urlZap}" target="_blank">${urlZap}</a>`;
-        window.open(`${urlZap}`,`minha página`);
- //       window.open("http://www.google.com/", "minhaJanela", "height=200,width=200");
+        var numConvert = Number(pnumber2.value)
+        var urlZap = url + numConvert;
+
+        window.open(`${urlZap}`,`open WhatsApp`);
+
         }
     </script>
 </body>
