@@ -1,41 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zapeador - Whatsapp</title>
+    <title>Zapeador</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
-    
-<center>
-<div class="border">
-    
-    <img src="whatsapp-icon.png" alt="" height="100px" width="100px">
-    <p id="title">Digite o número <br> com o DDD <br> depois clique no botão</p>
-    <input type="text" name="pnumber" id="pnumber"><br>
-    <button type="submit" onClick="zapear()">ABRIR WHATSAPP</button>
-    <br>
-    <p class="switch-pc"><a href="indexpc.html">Estou usando um PC</a></p>
-    
-</div>
-<div class="hint">
-    <p>Envie mensagem pelo Zap <br> sem salvar o número.</p>
-</div>
-</center>
-    <script>
-        function zapear(){
-        var url = 'https://wa.me/send?phone=55';
-
-        var pnumber2 = window.document.getElementById('pnumber');
-
-        var numConvert = Number(pnumber2.value)
-        var urlZap = url + numConvert;
-
-        window.open(`${urlZap}`,`open WhatsApp`);
-
-        }
-    </script>
+    <div class="switch">
+        <div class="tit-zapeador">
+            <h1>Zapeador</h1>
+        </div>
+        <div class="switch-item">
+            <a href="indexphone.html" class="">telefone</a>
+        </div>
+        <div class="switch-item">
+            <a href="indexpc.html" class="">computador</a>
+        </div>
+    </div>
 </body>
 </html>
-

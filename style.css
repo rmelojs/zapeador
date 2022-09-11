@@ -2,9 +2,12 @@ div.border{
     border: solid 0px;
     margin-top: 15px;
     width: 300px;
-    height: 400px;
+    height: 430px;
     box-shadow: 1px 0px 6px;
     border-radius: 4px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    margin-top: 50px;
 }
 p#title{
     font-size: 18pt;
@@ -13,40 +16,93 @@ div#link{
     margin-top: 20px;
     margin-bottom: 10px;
 }
-body{
+body, html{
     font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    margin-top: -15px;
+    background-color: #1c7fd1;
 }
 input#pnumber{
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     height: 45px;
     width: 222px;
     text-align: center;
     font-size: 18pt;
     color: rgb(54, 54, 54);
     font-family: Arial, Helvetica, sans-serif;
-    border-radius: 8px;
+    border-radius: 7px;
     border: solid 1px #189D0E;
 }
 button{
-    height: 60px;
-    width: 120px;
+    height: 50px;
+    width: 160px;
     color: rgb(255, 255, 255);
     border: 1px;
-    border-radius: 8px;
+    border-radius: 25px;
     background-color: #189D0E;
 }
-p.switch-pc{
-    font-size: 8pt;
-    text-decoration: none;
+
+/* 
+.tit-zapeador{
+    color: white;
+    position: relative;
 }
 
 .switch{
-    display: flex;
+    display: flexbox;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    padding: 30px;
 }
 
-.s-pc{
-    background-color: aqua;
-    margin: 10px;
+.switch-item{
+    font-size: 20pt;
+    text-decoration: none;
+    background-color: rgb(225, 228, 61);
+    border-radius: 20px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+} 
+*/
 
+.btn-sw{
+    margin-top: 35px;
+    background-color: rgb(90, 90, 90);
+    color: darkgray;
+    width: 130px;
+    height: 20px;
+    padding-top: 7px;
+    font-size: 12px;
+    border-radius: 6px;
+}
+
+.sw1:link{
+    text-decoration: none;
+}
+.sw1:visited{
+    color: blue;
+}
+.sw1:hover{
+    padding: 10px 30px;
+    background-color: blue;
+    color: yellow;
+    border-radius: 20px;
+    width: 200px;
+}
+
+a.sw2:link{
+    text-decoration: none;
+    color: white;
+}
+a.sw2:visited{
+    color: rgb(200, 200, 200);
+}
+a.sw2:hover{
+    color: yellow;
 }
