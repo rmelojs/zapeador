@@ -5,9 +5,10 @@ function zapearByWeb(){
     
     var numConvert = Number(pnumber2.value)
     var urlZap = url + numConvert;
-
+    
     window.open(`${urlZap}`,`open WhatsApp`);
-
+    
+    return alert(pnumber2.replace(/[^\d]+/g,''))
 }
 
 function zapearByPhone(){
