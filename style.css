@@ -16,12 +16,13 @@ div#link{
     margin-top: 20px;
     margin-bottom: 10px;
 }
-body, html{
+body{
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
     margin: 0;
     margin-top: -15px;
     background-color: #1c7fd1;
+    background-image: url('/bg-zapeador.jpg');
 }
 input#pnumber{
     margin-top: 10px;
@@ -50,7 +51,6 @@ button{
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: #ffffff;
     padding: 30px;
 }
 
