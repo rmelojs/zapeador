@@ -1,11 +1,6 @@
-## Zapeador web
+## Zapeador
 
-Enviar mensagens pelo WhatsApp sem salvar na agenda do telefone.
-
-Abra no navegador e digite o número do telefone com DDD. 
-
-Usando o celular ou tablet, escolha: 
-### [ versão celular ]
+Um código simples para facilitar o envio de mensagens para contatos que não estão na agenda do celular, sem necessidade de salvar o número.
 
 
 
