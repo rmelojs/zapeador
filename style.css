@@ -94,7 +94,7 @@ button{
 
 a.sw2:link{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 a.sw2:visited{
     color: rgb(0, 0, 0);
