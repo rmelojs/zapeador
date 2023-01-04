@@ -23,6 +23,7 @@ body{
     margin-top: -15px;
     background-color: #1c7fd1;
     background-image: url('/bg-zapeador.jpg');
+    background-size: auto;
 }
 input#pnumber{
     margin-top: 10px;
@@ -43,6 +44,7 @@ button{
     border: 1px solid #ffffff;
     border-radius: 25px;
     background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
 }
 
 .container{
