@@ -22,3 +22,8 @@ function zapearByPhone(){
     window.open(`${urlZap}`,`open WhatsApp`);
 
 }
+
+document.getElementById('phoneNumber').addEventListener('input', function (e) {
+    e.target.value = e.target.value.replace(/\D/g, '');
+  });
+  

@@ -1,33 +1,15 @@
-div.border{
-    border: solid 0px;
-    margin-top: 15px;
-    width: 300px;
-    height: 430px;
-    box-shadow: 1px 0px 6px;
-    border-radius: 10px;
-    background-color: #003800;
-    color: white;
-    margin-top: 50px;
-}
-p#title{
-    font-size: 18pt;
-}
-div#link{
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #1c7fd1;
-    background-image: url('/bg-zapeador.jpg');
+    background-image: url('bg-zapeador.jpg');
     background-size: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-input#pnumber{
-    margin-top: 10px;
-    margin-bottom: 5px;
+#phoneNumber{
+    margin-top: 0;
+    margin-bottom: 0;
     height: 45px;
     width: 222px;
     text-align: center;
@@ -38,23 +20,17 @@ input#pnumber{
     border: solid 0px #000000;
 }
 button{
-    height: 50px;
-    width: 160px;
-    color: rgb(255, 255, 255);
     border: 1px solid #ffffff;
-    border-radius: 25px;
-    background-color: rgba(0, 0, 0, 0);
     cursor: pointer;
 }
-
 .container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vh;
     height: 100vh;
 }
-
 .options{
     display: flex;
     flex-direction: column;
@@ -67,321 +43,68 @@ button{
     background-color: #003800;
     padding: 20px;
     border-radius: 20px;
-}
-
-.btn-sw{
-    margin-top: 20px;
-    background-color: rgba(90, 90, 90, 0);
-    color: rgb(255, 255, 255);
-    width: 150px;
-    height: 20px;
-    padding-top: 7px;
-    font-size: 11px;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 20px;
-}
-
-.sw1:link{
-    text-decoration: none;
-}
-.sw1:visited{
-    color: rgb(0, 0, 0);
-}
-.sw1:hover{
-    color: rgb(9, 4, 250);
-    border-radius: 20px;
-}
-
-a.sw2:link{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-a.sw2:visited{
-    color: rgb(0, 0, 0);
-}
-a.sw2:hover{
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-
-.hint{
-    color: #ffffff;
-    margin-top: 40px;
-}div.border{
-    border: solid 0px;
-    margin-top: 15px;
-    width: 300px;
-    height: 430px;
-    box-shadow: 1px 0px 6px;
-    border-radius: 10px;
-    background-color: #003800;
-    color: white;
-    margin-top: 50px;
-}
-p#title{
-    font-size: 18pt;
-}
-div#link{
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-input#pnumber{
-    margin-top: 10px;
-    margin-bottom: 5px;
-    height: 45px;
-    width: 222px;
-    text-align: center;
-    font-size: 18pt;
-    color: rgb(54, 54, 54);
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 7px;
-    border: solid 0px #000000;
-}
-button{
-    height: 50px;
-    width: 160px;
-    color: rgb(255, 255, 255);
-    border: 1px solid #ffffff;
-    border-radius: 25px;
-    background-color: rgba(0, 0, 0, 0);
-    cursor: pointer;
-}
-
-.btn-sw{
-    margin-top: 20px;
-    background-color: rgba(90, 90, 90, 0);
-    color: rgb(255, 255, 255);
-    width: 150px;
-    height: 20px;
-    padding-top: 7px;
-    font-size: 11px;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 20px;
-}
-
-.sw1:link{
-    text-decoration: none;
-}
-.sw1:visited{
-    color: rgb(0, 0, 0);
-}
-.sw1:hover{
-    color: rgb(9, 4, 250);
-    border-radius: 20px;
-}
-
-a.sw2:link{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-a.sw2:visited{
-    color: rgb(0, 0, 0);
-}
-a.sw2:hover{
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-
-.hint{
-    color: #ffffff;
-    margin-top: 40px;
-}
-.border{
-    border: solid 0px;
-    margin-top: 15px;
-    width: 300px;
-    height: 430px;
-    box-shadow: 1px 0px 6px;
-    border-radius: 10px;
-    background-color: #003800;
-    color: white;
-    margin-top: 50px;
-}
-p#title{
-    font-size: 18pt;
-}
-div#link{
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #1c7fd1;
-    background-image: url('/bg-zapeador.jpg');
-    background-size: auto;
-}
-input#pnumber{
-    margin-top: 10px;
-    margin-bottom: 5px;
-    height: 45px;
-    width: 222px;
-    text-align: center;
-    font-size: 18pt;
-    color: rgb(54, 54, 54);
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 7px;
-    border: solid 0px #000000;
-}
-button{
-    height: 50px;
-    width: 160px;
-    color: rgb(255, 255, 255);
-    border: 1px solid #ffffff;
-    border-radius: 25px;
-    background-color: rgba(0, 0, 0, 0);
-    cursor: pointer;
-}
-
-.options{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    row-gap: 20px;
-    color: white;
-    width: 300px;
-    height: 300px;
-    background-color: #003800;
-    padding: 20px;
-    border-radius: 20px;
-}
-
-.btn-sw{
-    margin-top: 20px;
-    background-color: rgba(90, 90, 90, 0);
-    color: rgb(255, 255, 255);
-    width: 150px;
-    height: 20px;
-    padding-top: 7px;
-    font-size: 11px;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 20px;
-}
-#btn-opt:hover{
-    background-color: #ffffff;
-    transition: 0.8;
-    opacity: 0.9;
-    color: #000000;
     font-size: 16pt;
 }
-.sw1:link{
-    text-decoration: none;
-}
-.sw1:visited{
-    color: rgb(0, 0, 0);
-}
-.sw1:hover{
-    color: rgb(9, 4, 250);
-    border-radius: 20px;
-}
-
-a.sw2:link{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-a.sw2:visited{
-    color: rgb(0, 0, 0);
-}
-a.sw2:hover{
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-
-.hint{
-    color: #ffffff;
-    margin-top: 40px;
-}div.border{
+.container-send{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: solid 0px;
-    margin-top: 15px;
     width: 300px;
     height: 430px;
     box-shadow: 1px 0px 6px;
     border-radius: 10px;
     background-color: #003800;
     color: white;
-    margin-top: 50px;
 }
-p#title{
-    font-size: 18pt;
-}
-div#link{
-    margin-top: 20px;
+.title{
+    text-align: center;
     margin-bottom: 10px;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
-    margin: auto;
-    background-color: #1c7fd1;
-    background-image: url('/bg-zapeador.jpg');
-    background-size: auto;
-}
-input#pnumber{
-    margin-top: 10px;
-    margin-bottom: 5px;
-    height: 45px;
-    width: 222px;
-    text-align: center;
-    font-size: 18pt;
-    color: rgb(54, 54, 54);
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 7px;
-    border: solid 0px #000000;
-}
-button{
-    height: 50px;
+.btnSend{
     width: 160px;
-    color: rgb(255, 255, 255);
-    border: 1px solid #ffffff;
+    height: 50px;
+    font-size: 14pt;
     border-radius: 25px;
     background-color: rgba(0, 0, 0, 0);
-    cursor: pointer;
+    color: #fff;
+    margin-top: 0;
 }
-
-.options{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    row-gap: 20px;
-    align-items: center;
-    color: white;
-    width: 300px;
-    height: 300px;
-    background-color: #003800;
-    padding: 20px;
-    border-radius: 20px;
+.btnSend:hover{
+    background-color: yellow;
+    color: #000000;
+    font-size: 14pt;
 }
-
+.hint{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#btn-opt{
+    width: 180px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 18px;
+    background-color: darkgreen;
+    border-radius: 30px ;
+}
+#btn-opt:hover{
+    background-color: greenyellow;
+    transition: 0.5;
+    color: #000000;
+    font-size: 18px;
+}
 .btn-sw{
-    margin-top: 20px;
-    background-color: rgba(90, 90, 90, 0);
-    color: rgb(255, 255, 255);
-    width: 150px;
-    height: 20px;
-    padding-top: 7px;
-    font-size: 11px;
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 20px;
 }
-
-.sw1:link{
-    text-decoration: none;
+.btn-sw:hover{
+    background-color: #000;
+    color: #fff;
 }
-.sw1:visited{
-    color: rgb(0, 0, 0);
-}
-.sw1:hover{
-    color: rgb(9, 4, 250);
-    border-radius: 20px;
-}
-
-a.sw2:link{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-a.sw2:visited{
-    color: rgb(0, 0, 0);
-}div.div.border{
-    border: solid 0px;
-    margin-top: 
