@@ -1,14 +1,14 @@
 function zapearByWeb(){
     var url = 'https://web.whatsapp.com/send?phone=55';
 
-    var pnumber2 = window.document.getElementById('pnumber');
+    var pnumber2 = window.document.getElementById('phoneNumber');
     
-    var numConvert = Number(pnumber.value)
+    var numConvert = Number(phoneNumber.value)
     var urlZap = url + numConvert;
     
     window.open(`${urlZap}`,`open WhatsApp`);
     
-    return alert(pnumber.replace(/[^\d]+/g,''))
+    return alert(phoneNumber.replace(/[^\d]+/g,''))
 }
 
 function zapearByPhone(){
