@@ -14,7 +14,7 @@ function zapearByWeb(){
 function zapearByPhone(){
     var url = 'https://wa.me/send?phone=55';
 
-    var pnumber2 = window.document.getElementById('pnumber');
+    var pnumber2 = window.document.getElementById('phoneNumber');
 
     var numConvert = Number(pnumber2.value)
     var urlZap = url + numConvert;
