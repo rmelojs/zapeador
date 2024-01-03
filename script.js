@@ -3,12 +3,12 @@ function zapearByWeb(){
 
     var pnumber2 = window.document.getElementById('pnumber');
     
-    var numConvert = Number(pnumber2.value)
+    var numConvert = Number(pnumber.value)
     var urlZap = url + numConvert;
     
     window.open(`${urlZap}`,`open WhatsApp`);
     
-    return alert(pnumber2.replace(/[^\d]+/g,''))
+    return alert(pnumber.replace(/[^\d]+/g,''))
 }
 
 function zapearByPhone(){
