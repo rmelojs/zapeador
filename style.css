@@ -1,31 +1,29 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #1c7fd1;
-    background-image: url('bg-zapeador.jpg');
-    background-size: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-img{
-    margin-top: 15px;
-}
-#phoneNumber{
-    margin-top: 0;
-    margin-bottom: 0;
-    height: 45px;
+/*    background-image: url('bg-zapeador.jpg');*/
+    background-image: linear-gradient(120deg, cyan, blue, navy); 
+    background-size:
+    auto; display: flex; justify-content: center; align-items: center; } img
+    { margin-top: 15px; }
+
+#phoneNumber{ ]
+    margin-top: 0; 
+    margin-bottom: 0; 
+    height: 45px; 
     width: 200px;
-    text-align: center;
-    font-size: 18pt;
-    color: rgb(54, 54, 54);
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 7px;
-    border: solid 0px #000000;
-}
-button{
-    border: 1px solid #ffffff;
-    cursor: pointer;
-}
+    text-align: center; 
+    font-size: 18pt; 
+    color: rgb(54, 54, 54); 
+    font-family: Arial, Helvetica, sans-serif; 
+    border-radius: 7px; border: solid
+    0px #000000;
+} 
+
+button{ 
+    border: 1px solid #ffffff; 
+    cursor: pointer; }
+
 .container{
     display: flex;
     flex-direction: column;
@@ -34,6 +32,7 @@ button{
     width: 100vh;
     height: 100vh;
 }
+
 .options{
     display: flex;
     flex-direction: column;
@@ -48,6 +47,7 @@ button{
     border-radius: 20px;
     font-size: 16pt;
 }
+
 .container-send{
     display: flex;
     flex-direction: column;
@@ -60,10 +60,16 @@ button{
     background-color: #003800;
     color: white;
 }
+
+form{
+    text-align: center;
+}
+
 .title{
     text-align: center;
     margin-bottom: 10px;
 }
+
 .btnSend{
     width: 160px;
     height: 50px;
@@ -105,7 +111,7 @@ button{
     width: 300px;
     height: 30px;
     font-size: 16px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255, 1.0);
     border-radius: 20px;
 }
 .btn-sw:hover{
