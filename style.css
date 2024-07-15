@@ -2,14 +2,21 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #1c7fd1;
     background-image: linear-gradient(120deg, #96e6ff, #1c7fd1, #96e6ff); 
-/*    background-size: auto; */
+    background-size: 100vh; 
     display: flex; 
+    flex-direction: column;
     justify-content: center; 
     align-items: center; 
-    margin: 0;
+    margin: auto;
 } 
 img{ 
     margin-top: 15px; 
+}
+
+.whatZapeador{
+    margin: 30px;
+    margin-top: 10px;
+    text-align: justify;
 }
 
 #phoneNumber{
@@ -34,8 +41,8 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vh;
-    height: 100vh;
+    width: auto;
+    height: auto;
 }
 
 .options{
