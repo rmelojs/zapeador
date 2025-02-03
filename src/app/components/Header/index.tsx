@@ -11,10 +11,14 @@ export function Header() {
             <li>
               <Link href="/">Home</Link>
             </li>
+
             <li>
               <Link href="sobre">Sobre</Link>
             </li>
-            <li>O WhatsApp</li>
+
+            <li>
+              <Link href="whatsapp">O WhatsApp</Link>
+            </li>
           </ul>
         </nav>
       </div>
